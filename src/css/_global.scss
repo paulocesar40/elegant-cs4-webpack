@@ -1,0 +1,38 @@
+$dark-overlay:rgba(0,0,0,0.5);
+$cta-overlay: rgba(255,255,255,0.8);
+$font-color:rgba(255,255,255,0.7);
+$electron-blue:#0984e3;
+$title-color: rgba(0,0,0,.85);
+$subtitle-color: rgba(0,0,0,.60);
+$text-color: rgba(0,0,0,.75);
+$title-color-light: rgba(255,255,255,.95);
+$subtitle-color-light: rgba(255,255,255,.70);
+$text-color-light: rgba(255,255,255,.85);
+$accent-color-1: #e17055;
+$accent-color-2: #2f5572;
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #333;
+    position: relative;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.accent {
+    font-weight: 500;
+    color: $accent-color-1;
+  }

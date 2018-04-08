@@ -1,0 +1,35 @@
+#main-footer {
+    background: linear-gradient(75deg,#2c3e50,#34495e);
+    p {
+        font-size: .875rem;
+        color: $text-color-light;
+        line-height: 1.5rem;
+    }
+    .footer-heading {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $title-color-light;
+    }
+    .no-decoration {
+      text-decoration: none !important;
+      color: $text-color-light !important;
+      font-size: .875rem;
+    }  
+  }
+
+  #second-footer {
+    background: linear-gradient(75deg,#2c3e50,#34495e);
+    //margin-top: .04rem;
+    padding: 2rem 0;
+    .col {
+        color: $text-color-light !important;
+        font-size: .775rem;
+        text-align: center;  
+    }
+
+    .no-decoration {
+        text-decoration: none !important;
+        color: $text-color-light !important;
+        font-size: .875rem;
+      }  
+  }
