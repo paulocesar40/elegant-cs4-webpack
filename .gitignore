@@ -1,3 +1,3 @@
 /node_modules/
-/php/*.*
-/php/
+src/php/*.*
+src/php/
