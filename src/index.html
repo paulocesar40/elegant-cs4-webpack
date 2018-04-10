@@ -252,8 +252,7 @@
         <div class="row">
           <div class="col-lg-1 p-0">
             <a href="#stage">
-              <img src="images/UpdatedLogo.svg" width="80" height="80" class="d-inline-block align-top lazyload" alt="Elegant CS Logo">
-              <img src="images/Glamour Roses-01.png" width="80" height="80" class="d-inline-block align-top lazyload" alt="Elegant CS Logo">
+              <img src="images/UpdatedLogo.svg" width="80" height="80" class="d-inline-block align-top lazyload" alt="Elegant CS Logo">          
             </a>
           </div>
           <div class="col-lg-3">
@@ -295,6 +294,11 @@
               P. O. Box 1696, 
               Frisco, TX 75034
             </address> </p>
+            <hr>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light btn-md" data-toggle="modal" data-target="#exampleModal">
+                Click To Write Us
+            </button>
           </div>
         </div>
       </div>
@@ -313,6 +317,52 @@
     </div>
   </section>
   <!-- Second Footer ends here -->
+
+  <!-- Modal Div starts here -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Write Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- Form starts -->
+            <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-md" id="name" placeholder="Full Name" required data-error="NEW ERROR MESSAGE">
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-md" id="email" placeholder="Email" required>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group">
+                  <textarea id="message" class="form-control form-control-md" placeholder="Message" required></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="card-footer">
+                  <button type="submit" id="form-submit" class="btn btn-outline-dark btn-md btn-block">Submit</button>
+                  <div id="msgSubmit" class="h3 text-center hidden"></div>
+                  <div class="clearfix"></div>
+                </div>
+              </form>
+            <!-- Form ends -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+
+  <!-- Modal Div ends here -->
 
 </body>
 </html>
